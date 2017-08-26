@@ -10,7 +10,7 @@ class Genre(models.Model):
     """
     Model representing a book genre (e.g. Science Fiction, Non Fiction).
     """
-    name = models.CharField(max_length=200,verbose_name = Address,
+   ADDRESS = models.CharField(max_length=200,verbose_name = Address,
 
  help_text="Enter a book genre (e.g. Science Fiction, French Poetry etc.)")
     
@@ -18,7 +18,7 @@ class Genre(models.Model):
         """
         String for representing the Model object (in Admin site etc.)
         """
-        return self.name
+        return self. ADDRESS 
 
 from django.urls import reverse #Used to generate URLs by reversing the URL patterns
 
