@@ -16,7 +16,7 @@ class Genre(models.Model):
         """
         String for representing the Model object (in Admin site etc.)
         """
-        return self.name
+        return self. Address
 
 from django.urls import reverse #Used to generate URLs by reversing the URL patterns
 
